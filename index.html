@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic-Tac-Toe</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<section class="greeting">
+				<h1>Tic-Tac-Toe</h1>
+				<p>
+					Player 1 is X<br />Player 2 is O<br />First player to get three in a
+					row Wins!
+				</p>
+			</section>
+			<section class="scoreboards">
+				<div class="player1-score-container">
+					Player1 Score: <span class="player1-score">0</span>
+				</div>
+				<div class="player2-score-container">
+					Player 2 Score: <span class="player2-score">0</span>
+				</div>
+			</section>
+		</header>
+		<div>
+			<main class="grid-container">
+				<div class="grid-section1">
+					<button class="btnStyle" id="cell1">Cell1</button>
+				</div>
+				<div class="grid-section2">
+					<button class="btnStyle" id="cell2">Cell2</button>
+				</div>
+				<div class="grid-section3">
+					<button class="btnStyle" id="cell3">Cell3</button>
+				</div>
+				<div class="grid-section4">
+					<button class="btnStyle" id="cell4">Cell4</button>
+				</div>
+				<div class="grid-section5">
+					<button class="btnStyle" id="cell5">Cell5</button>
+				</div>
+				<div class="grid-section6">
+					<button class="btnStyle" id="cell6">Cell6</button>
+				</div>
+				<div class="grid-section7">
+					<button class="btnStyle" id="cell7">Cell7</button>
+				</div>
+				<div class="grid-section8">
+					<button class="btnStyle" id="cell8">Cell8</button>
+				</div>
+				<div class="grid-section9">
+					<button class="btnStyle" id="cell9">Cell9</button>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<section class="modal-container modal-welcome">
+				<div class="modal-inner">
+					<p>Welcome to Tic-Tac-Toe!</p>
+					<button class="btnStyle" id="play">Play</button>
+				</div>
+			</section>
+			<button class="btnStyle" id="reset">Reset Score</button>
+		</footer>
+	</body>
+</html>
